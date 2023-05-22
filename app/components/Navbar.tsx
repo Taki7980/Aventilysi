@@ -44,6 +44,7 @@ export default function Navbar() {
                                                                   alt="Your Company"
                                                                   height={20}
                                                                   width={20}
+                                                                  quality={100}
                                                             />
                                                             <Image
                                                                   className="hidden h-8 w-auto lg:block text-black"
@@ -51,6 +52,7 @@ export default function Navbar() {
                                                                   alt="Your Company"
                                                                   height={20}
                                                                   width={20}
+                                                                  quality={100}
                                                             />
                                                       </div>
                                                       <div className="hidden sm:ml-6 sm:block">
@@ -83,6 +85,7 @@ export default function Navbar() {
                                                                               alt="hello"
                                                                               height={20}
                                                                               width={20}
+                                                                              quality={100}
                                                                         />
                                                                   </Menu.Button>
                                                             </div>

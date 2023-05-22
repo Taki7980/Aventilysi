@@ -7,9 +7,7 @@ import Image from 'next/image'
 
 // import FeaturesElement from '@/public/images/features-element.png'
 
-const FeaturesBg = 'https://greenheck-cms-prod.azureedge.net/atg-cms-prod/images/default-source/renderings/fans_22.png?sfvrsn=62a25b92_3'
-const FeaturesElement = 'https://greenheck-cms-prod.azureedge.net/atg-cms-prod/images/default-source/renderings/make-up-air_open.png?sfvrsn=b53de973_12'
-const FeaturesElement1 = 'https://greenheck-cms-prod.azureedge.net/atg-cms-prod/images/default-source/renderings/dedicated-outdoor-air-systems_1.png?sfvrsn=262c9e68_4'
+
 
 interface FeaturesProps {
       subtitle: string;
@@ -17,6 +15,9 @@ interface FeaturesProps {
 
 
 export default function Features({ subtitle }: FeaturesProps) {
+      const FeaturesBg = 'https://greenheck-cms-prod.azureedge.net/atg-cms-prod/images/default-source/renderings/fans_22.png?sfvrsn=62a25b92_3'
+      const FeaturesElement = 'https://greenheck-cms-prod.azureedge.net/atg-cms-prod/images/default-source/renderings/make-up-air_open.png?sfvrsn=b53de973_12'
+      const FeaturesElement1 = 'https://greenheck-cms-prod.azureedge.net/atg-cms-prod/images/default-source/renderings/dedicated-outdoor-air-systems_1.png?sfvrsn=262c9e68_4'
 
       const [tab, setTab] = useState<number>(1)
 
