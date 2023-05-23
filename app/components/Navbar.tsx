@@ -5,6 +5,7 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
 import Link from 'next/link';
+import Logo from '../../anim/logo.png'
 
 const navigation = [
       { name: 'Home', href: '/', current: false },
@@ -40,7 +41,7 @@ export default function Navbar() {
                                                       <div className="flex flex-shrink-0 items-center">
                                                             <Image
                                                                   className="block h-8 w-auto lg:hidden text-black"
-                                                                  src="https://greenheck-cms-prod.azureedge.net/atg-cms-prod/images/default-source/logos/greenheck_logo_horiz.png?sfvrsn=7b9cf340_8"
+                                                                  src={Logo}
                                                                   alt="Your Company"
                                                                   height={20}
                                                                   width={20}
@@ -48,7 +49,7 @@ export default function Navbar() {
                                                             />
                                                             <Image
                                                                   className="hidden h-8 w-auto lg:block text-black"
-                                                                  src="https://greenheck-cms-prod.azureedge.net/atg-cms-prod/images/default-source/logos/greenheck_logo_horiz.png?sfvrsn=7b9cf340_8"
+                                                                  src={Logo}
                                                                   alt="Your Company"
                                                                   height={20}
                                                                   width={20}
