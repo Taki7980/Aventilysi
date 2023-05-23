@@ -8,6 +8,8 @@ const nextConfig = {
                   "greenheck-cms-prod.azureedge.net",
                   "staticg.sportskeeda.com",
                   "img.freepik.com",
+                 "cdn-icons-png.flaticon.com",
+                 "cdn-icons-png.flaticon.com"
             ]
       }
 }

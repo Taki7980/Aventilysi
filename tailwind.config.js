@@ -6,6 +6,25 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    screens: {
+      'xxsmall':'360px',
+      'xs': '480px',
+      // => @media (min-width: 480px) { ... }
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+    },
     extend: {
       colors: {
         gray: {
@@ -65,11 +84,11 @@ module.exports = {
         '1/1': '100%',
       },
       fontSize: {
-        xs: '0.75rem',
-        sm: '0.875rem',
-        base: '1rem',
-        lg: '1.125rem',
-        xl: '1.25rem',
+        'xs': '0.75rem',
+        'sm': '0.875rem',
+        'base': '1rem',
+        'lg': '1.125rem',
+        'xl': '1.25rem',
         '2xl': '1.5rem',
         '3xl': '2rem',
         '4xl': '2.625rem',
@@ -125,15 +144,61 @@ module.exports = {
             opacity: '1',
             transform: 'translateY(0)'
           },
-          float: {
-            '0%, 100%': { transform: 'translateY(0)', },
-            '50%': { transform: 'translateY(-5%)', },
+          
+        },
+        'fade-out-down1': {
+          '0%': {
+            opacity: '0',
+            transform: 'translateY(-10px)'
           },
-        }
+          '100%': {
+            opacity: '1',
+            transform: 'translateY(0)'
+          },
+          
+        },
+        'fade-out-down2': {
+          '0%': {
+            opacity: '0',
+            transform: 'translateY(-10px)'
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'translateY(0)'
+          },
+          
+        },
+        'fade-out-down3': {
+          '0%': {
+            opacity: '0',
+            transform: 'translateY(-10px)'
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'translateY(0)'
+          },
+          
+        },
+        'fade-out-down4': {
+          '0%': {
+            opacity: '0',
+            transform: 'translateY(-10px)'
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'translateY(0)'
+          },
+          
+        },
       },
       animation: {
         'fade-in-down': 'fade-in-down 0.5s ease-out',
-        float: 'float 3s ease-in-out infinite',
+        'fade-out-down1': 'fade-out-down 1.5s ease-out',
+        'fade-out-down2': 'fade-out-down 1.0s ease-out',
+        'fade-out-down3': 'fade-out-down 1.5s ease-out',
+        'fade-out-down4': 'fade-out-down 2.0s ease-out',
+
+        
       },
       zIndex: {
         '-1': '-1',

@@ -20,7 +20,7 @@ function classNames(...classes: string[]) {
 export default function Navbar() {
       return (
             <>
-                  <Disclosure as="nav" className="">
+                  <Disclosure as="nav">
                         {({ open }) => (
                               <>
                                     <div className="mx-auto max-w-7xl px-6 sm:px-6 lg:px-8">
@@ -55,8 +55,8 @@ export default function Navbar() {
                                                                   quality={100}
                                                             />
                                                       </div>
-                                                      <div className="hidden sm:ml-6 sm:block">
-                                                            <div className="flex space-x-4">
+                                                      <div className="hidden xl:block sm:ml-6 sm:block">
+                                                            <div className="flex flex-row space-x-4">
                                                                   {navigation.map((item) => (
                                                                         <Link
                                                                               key={item.name}

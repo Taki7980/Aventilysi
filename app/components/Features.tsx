@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from 'react'
 import { Transition } from '@headlessui/react'
 import Image from 'next/image'
+import FeaturesItems from './FeaturesItems';
 // import FeaturesBg from '@/public/images/features-bg.png'
 
 // import FeaturesElement from '@/public/images/features-element.png'
@@ -28,13 +29,15 @@ export default function Features({ subtitle }: FeaturesProps) {
 
 
             <div className="w-full mx-auto px-4 sm:px-6 h-full py-12">
-                  <div className="mx-auto py-12 sm:px-6 max-w-5xl lg:py-16 lg:px-0">
+                  <div className="mx-auto w-full py-12 sm:px-6 max-w-5xl lg:py-16 lg:px-0">
 
                         {/* Section header */}
-                        <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-                              <h1 className="text-4xl md:text-3xl sm:text-2xl font-extrabold mb-4">Explore the solutions</h1>
-                              <p className="text-xl text-gray-600">{subtitle}</p>
+                        <div className="w-full mx-auto text-center pb-12 md:pb-16">
+                              <h1 className="text-3xl md:text-3xl lg::text-4xl font-extrabold mb-4 drop-shadow-lg">Explore the solutions</h1>
+                              <p className="text-sm lg:text-xl md:text-lg text-gray-600 text-center">{subtitle}</p>
                         </div>
+                        
+                        <FeaturesItems/>
 
                         {/* Section content */}
                         <div className="md:grid md:grid-cols-12 md:gap-6 sm:block">
@@ -96,7 +99,7 @@ export default function Features({ subtitle }: FeaturesProps) {
                               </div>
 
                               {/* Tabs items */}
-                              <div className="max-w-5xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 sm:col-span-4 mb-8 md:mb-0 md:order-1" data-aos="zoom-y-out" ref={tabs}>
+                              <div className="w-full flex items-center justify-center md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 sm:col-span-4 mb-8 md:mb-0 md:order-1" data-aos="zoom-y-out" ref={tabs}>
                                     <div className="relative flex flex-col text-center lg:text-right">
                                           {/* Item 1 */}
                                           <Transition
@@ -111,7 +114,7 @@ export default function Features({ subtitle }: FeaturesProps) {
                                                 leaveTo="opacity-0 -translate-y-16"
                                           >
                                                 <div className="relative inline-flex flex-row ">
-                                                      <Image className="mx-auto  rounded transform animate-float" src={FeaturesBg} width={400} height={362} alt="Features bg" />
+                                                      <Image className="mx-auto w-full h-auto rounded transform" src={FeaturesBg} width={400} height={362} alt="Features bg" />
                                                 </div>
                                           </Transition>
                                           {/* Item 2 */}
@@ -127,7 +130,7 @@ export default function Features({ subtitle }: FeaturesProps) {
                                                 leaveTo="opacity-0 -translate-y-16"
                                           >
                                                 <div className="relative inline-flex flex-row ">
-                                                      <Image className=" mx-auto  rounded transform animate-float" src={FeaturesElement} width={400} height={362} alt="Featuresbg" />
+                                                      <Image className=" mx-auto w-full h-auto rounded transform" src={FeaturesElement} width={400} height={362} alt="Featuresbg" />
                                                 </div>
                                           </Transition>
                                           {/* Item 3 */}
@@ -143,7 +146,7 @@ export default function Features({ subtitle }: FeaturesProps) {
                                                 leaveTo="opacity-0 -translate-y-16"
                                           >
                                                 <div className="relative inline-flex flex-row">
-                                                      <Image className=" mx-auto  rounded transform animate-float" src={FeaturesElement1} width={400} height={362} alt="Features bg" />
+                                                      <Image className=" mx-auto w-full h-auto rounded transform " src={FeaturesElement1} width={400} height={362} alt="Features bg" />
                                                 </div>
                                           </Transition>
                                     </div>
