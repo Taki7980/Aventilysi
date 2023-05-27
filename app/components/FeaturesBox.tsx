@@ -53,7 +53,7 @@ export default function FeaturesBlocks() {
                         {/* Section header */}
                         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 space-y-2">
                               <h2 className="text-3xl text-center font-bold mb-4">Other Features</h2>
-                              <p className="text-xl text-gray-600">As the worldwide leader in manufacturing high quality air movement, control and conditioning products, Greenheck offers the most comprehensive line of ventilation equipment available including fans, dampers, louvers, kitchen ventilation systems, energy recovery, and make-up air units.</p>
+                              <p className="text-xl text-gray-900">As the worldwide leader in manufacturing high quality air movement, control and conditioning products, Greenheck offers the most comprehensive line of ventilation equipment available including fans, dampers, louvers, kitchen ventilation systems, energy recovery, and make-up air units.</p>
                         </div>
 
                         {/* Items */}

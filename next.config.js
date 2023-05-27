@@ -9,7 +9,9 @@ const nextConfig = {
                   "staticg.sportskeeda.com",
                   "img.freepik.com",
                  "cdn-icons-png.flaticon.com",
-                 "cdn-icons-png.flaticon.com"
+                 "cdn-icons-png.flaticon.com",
+                 "content.greenheck.com",
+                 "docs.exideindustries.com"
             ]
       }
 }

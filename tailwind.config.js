@@ -7,7 +7,7 @@ module.exports = {
   ],
   theme: {
     screens: {
-      'xxsmall':'360px',
+      'xxsmall': '360px',
       'xs': '480px',
       // => @media (min-width: 480px) { ... }
       'sm': '640px',
@@ -26,6 +26,7 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
     },
     extend: {
+
       colors: {
         gray: {
           100: '#FBFBFB',
@@ -75,9 +76,10 @@ module.exports = {
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'gradient-conic':'conic-gradient(from 180deg at 50% 50%,(--tw-gradient-stops)',
+        
       },
+
       spacing: {
         '9/16': '56.25%',
         '3/4': '75%',
@@ -144,7 +146,7 @@ module.exports = {
             opacity: '1',
             transform: 'translateY(0)'
           },
-          
+
         },
         'fade-out-down1': {
           '0%': {
@@ -155,7 +157,7 @@ module.exports = {
             opacity: '1',
             transform: 'translateY(0)'
           },
-          
+
         },
         'fade-out-down2': {
           '0%': {
@@ -166,7 +168,7 @@ module.exports = {
             opacity: '1',
             transform: 'translateY(0)'
           },
-          
+
         },
         'fade-out-down3': {
           '0%': {
@@ -177,7 +179,7 @@ module.exports = {
             opacity: '1',
             transform: 'translateY(0)'
           },
-          
+
         },
         'fade-out-down4': {
           '0%': {
@@ -188,7 +190,7 @@ module.exports = {
             opacity: '1',
             transform: 'translateY(0)'
           },
-          
+
         },
       },
       animation: {
@@ -198,7 +200,7 @@ module.exports = {
         'fade-out-down3': 'fade-out-down 1.5s ease-out',
         'fade-out-down4': 'fade-out-down 2.0s ease-out',
 
-        
+
       },
       zIndex: {
         '-1': '-1',
@@ -206,6 +208,6 @@ module.exports = {
     },
   },
   plugins: [
-    
+
   ],
 }

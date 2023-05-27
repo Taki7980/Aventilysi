@@ -21,14 +21,14 @@ const page = () => {
                                           <FcContacts size={50} />
                                           <h1 className="text-3xl font-bold text-black">Amitava Dutta</h1>
                                     </div>
-                                    <div className="contactInfoBox space-y-6">
+                                    <div className="contactInfoBox space-y-6 w-full">
                                           <div className="emailBox flex items-center justify-center gap-4">
                                                 <MdOutlineAlternateEmail size={20} />
-                                                <p className="text-lg text-gray-600">sales.aventilysi@gmail.com / amitava.dutta.avl@gmail.com</p>
+                                                <p className="text-xl font-bold text-black">sales@aventilysi.com / amitava.dutta.avl@gmail.com / amitava.dutta@aventilysi.com</p>
                                           </div>
                                           <div className="addressb flex items-center justify-center gap-4">
                                                 <FaRegAddressCard size={20} />
-                                                <p className="text-lg text-gray-600">185, KONA PILOT BAGAN, KONA, HOWRAH-711 114</p>
+                                                <p className="text-lg text-black font-medium">185, KONA PILOT BAGAN, KONA, HOWRAH-711 114</p>
                                           </div>
                                     </div>
                               </div>

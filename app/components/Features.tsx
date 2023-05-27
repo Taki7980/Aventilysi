@@ -34,7 +34,7 @@ export default function Features({ subtitle }: FeaturesProps) {
                         {/* Section header */}
                         <div className="w-full mx-auto text-center pb-12 md:pb-16">
                               <h1 className="text-3xl md:text-3xl lg::text-4xl font-extrabold mb-4 drop-shadow-lg">Explore the solutions</h1>
-                              <p className="text-sm lg:text-xl md:text-lg text-gray-600 text-center">{subtitle}</p>
+                              <p className="text-sm lg:text-xl md:text-lg text-gray-900 text-center">{subtitle}</p>
                         </div>
                         
                         <FeaturesItems/>
@@ -46,7 +46,7 @@ export default function Features({ subtitle }: FeaturesProps) {
                               <div className=" max-w-xl md:max-w-none md:w-full sm:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
                                     <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
                                           <h3 className="lg:text-xl md:text-lg sm:text-xl mb-3 font-semibold">Powerful suite of tools</h3>
-                                          <p className="text-sm text-gray-600">Greenhecks commitment to delivering reliable industry leading products and support at every level gives me great confidence to promote all of your product offerings.</p>
+                                          <p className="text-sm text-gray-900">Greenhecks commitment to delivering reliable industry leading products and support at every level gives me great confidence to promote all of your product offerings.</p>
                                     </div>
                                     {/* Tabs buttons */}
                                     <div className="mb-8 md:mb-0 w-auto">

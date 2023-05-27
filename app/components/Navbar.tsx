@@ -12,6 +12,7 @@ const navigation = [
       { name: 'About Us', href: '/about', current: false },
       { name: 'Projects', href: '/projects', current: false },
       { name: 'Contact Us', href: '/contact', current: false },
+      { name: 'Products', href: '/products', current: false },
 ]
 
 function classNames(...classes: string[]) {
@@ -25,7 +26,7 @@ export default function Navbar() {
                         {({ open }) => (
                               <>
                                     <div className="mx-auto max-w-7xl px-6 sm:px-6 lg:px-8">
-                                          <div className="relative flex h-16 items-center justify-between">
+                                          <div className="relative flex h-16 items-center justify-around">
                                                 <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                                                       {/* Mobile menu button*/}
                                                       <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-black hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
@@ -74,9 +75,9 @@ export default function Navbar() {
                                                             </div>
                                                       </div>
                                                 </div>
-                                                <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                                                {/* <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
 
-                                                      {/* Profile dropdown */}
+                                                      Profile dropdown
                                                       <Menu as="div" className="relative ml-3">
                                                             <div>
                                                                   <Menu.Button className="flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
@@ -91,7 +92,7 @@ export default function Navbar() {
                                                                   </Menu.Button>
                                                             </div>
                                                       </Menu>
-                                                </div>
+                                                </div> */}
                                           </div>
                                     </div>
 

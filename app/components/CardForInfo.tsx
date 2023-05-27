@@ -9,6 +9,7 @@ interface CardForInfoProps {
       title: string;
       description: string;
       url?: string;
+      imageUrl?: string;
 }
 
 const CardForInfo: React.FC<CardForInfoProps> = ({ title, description, url }) => {

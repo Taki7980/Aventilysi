@@ -63,7 +63,7 @@ const page = () => {
                   <Container>
                         <Heading title="About Us" center subtitle="Learn more About Us" />
                         {aboutInfo.map((item) => (
-                              <CardForInfo key={item.title} title={item.title} description={item.description} url={item.url} />
+                              <CardForInfo key={item.title} imageUrl={item.title} title={item.title} description={item.description} url={item.url} />
                         ))}
                   </Container>
             </div>

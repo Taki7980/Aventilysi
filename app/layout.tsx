@@ -21,7 +21,7 @@ export default function RootLayout({
 }) {
       return (
             <html lang="en">
-                  <body className={nunito.className}>
+                  <body className={`${nunito.className} bg-gradient-to-t from-[#67f936] to-[#4f60f2] bg-cover bg-center bg-fixed `}>
                         <Navbar/>
                         {children}
                         <Footer/>

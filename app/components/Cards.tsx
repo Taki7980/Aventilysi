@@ -24,5 +24,4 @@ const Cards: React.FC<Props> = ({ project }) => {
             </div>
       )
 }
-
-export default Cards
+export default Cards;
