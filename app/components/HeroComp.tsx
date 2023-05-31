@@ -22,8 +22,8 @@ const HeroComp: React.FC<HeroCompProps> = ({ title, subtitle, imageUrl, }) => {
                                     {/* Section header */}
                                     <div className="text-center pb-12 md:pb-16 w-full">
                                           <div className="w-full flex flex-col justify-center items-center md:flex-row lg:flex-row mb-4 space-y-1 lg:space-y-0 md:space-y-0 space-x-3" data-aos="zoom-y-out">
-                                                <h1 className="lg:text-4xl md:text-3xl text-[30px] drop-shadow-lg font-extrabold ">{title.slice(0, 17)}</h1>
-                                                <h1 className="lg:text-4xl md:text-3xl text-[24px] drop-shadow-lg font-extrabold mb-4 bg-clip-text text-transparent bg-gradient-to-b from-orange-600 to-slate-900">{title.slice(18,)}</h1>
+                                                <h1 className="lg:text-4xl md:text-3xl text-[34px] drop-shadow-lg font-extrabold ">{title.slice(0, 26)}</h1>
+                                                <h1 className="lg:text-4xl md:text-3xl text-[33px] drop-shadow-lg font-extrabold mb-4 bg-clip-text text-transparent bg-gradient-to-b from-orange-600 to-slate-900">{title.slice(26,)}</h1>
                                           </div>
                                           <div className="w-full lg:w-full md:w-full mx-auto px-1">
                                                 <p className=" drop-shadow-lg lg:text-xl md:text-base sm:text-sm text-[15px] font-thin text-gray-900 pb-8" data-aos="zoom-y-out" data-aos-delay="150">{subtitle}</p>
