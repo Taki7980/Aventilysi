@@ -15,11 +15,11 @@ interface CardForInfoProps {
 const CardForInfo: React.FC<CardForInfoProps> = ({ title, description, url }) => {
       return (
             <div>
-                  <Container>
+                  
                         <div className="card w-full bg-base-100 my-10">
                               <div className="card-body space-y-2">
-                                    <h2 className="card-title font-semibold text-2xl">{title}</h2>
-                                    <div className="text-gray-500">{description}</div>
+                                    <h2 className="card-title text-center font-semibold text-3xl">{title}</h2>
+                                    <div className="text-gray-900">{description}</div>
                                     <div className="card-actions justify-end">
                                           {url && (
 
@@ -29,7 +29,7 @@ const CardForInfo: React.FC<CardForInfoProps> = ({ title, description, url }) =>
                                     </div>
                               </div>
                         </div>
-                  </Container>
+                  
             </div>
       )
 }

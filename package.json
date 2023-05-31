@@ -10,9 +10,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@headlessui/react": "^1.7.14",
     "@heroicons/react": "^2.0.18",
     "@material-tailwind/react": "^2.0.1",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.2",
     "@portabletext/react": "^3.0.0",
     "@types/node": "20.1.4",
     "@types/react": "18.2.6",

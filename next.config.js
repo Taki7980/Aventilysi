@@ -11,7 +11,8 @@ const nextConfig = {
                  "cdn-icons-png.flaticon.com",
                  "cdn-icons-png.flaticon.com",
                  "content.greenheck.com",
-                 "docs.exideindustries.com"
+                 "docs.exideindustries.com",
+                 "www.rataindia.com",
             ]
       }
 }

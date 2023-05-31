@@ -10,6 +10,7 @@ import { FaRegAddressCard } from 'react-icons/fa'
 
 
 
+
 const page = () => {
       return (
             <div>
@@ -35,8 +36,7 @@ const page = () => {
                               <div className=" box2 rounded-lg">
                                     <AnimationComponent />
                               </div>
-                        </div>
-                        
+                        </div>     
                   </Container>
             </div>
       )

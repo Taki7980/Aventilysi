@@ -12,58 +12,39 @@ const page = () => {
       const aboutInfo = [
             {
                   title: 'Building value in air',
-                  description: 'As an industry-leading manufacturer, our focus is to build value in air. This is more than a catchy play on words. It`s what we do. We offer the widest range of reliable air movement, control and conditioning equipment available. Then, we do everything to exceed your expectations for on-time delivery, easy installation, and performance.',
-                  url: '',
+                  description: 'The Refrigeration & Air-Conditioning Trades Association Ltd. (RATA) is one of the oldest associations working for the development of MSME in the field Air-Conditioning & Refrigeration industry in India. Established in the year 1949, the association brings together people from the entire industry and gives them a central forum to help them accomplish their common goal of making progress and achieving success.',
 
-            },
-            {
-                  title: 'Overview',
-                  description: 'Greenheck has come a long way since 1947 when it began business as a tiny sheet metal shop in Schofield, Wisconsin. Today, our flagship ventilation products are behind walls, in ductwork or on the roofs of non-residential buildings around the world.',
-                  url: 'https://www.greenheck.com/about-us/overview',
 
             },
             {
                   title: 'Philosophy',
-                  description: 'Greenheck founders, Bob and Bernie Greenheck, promoted a business philosophy based on two main concepts. These are, continuous improvement and the determination to be the easiest company to do business with. Today, that approach is captured in our motto “building value in air.” It`s our commitment to our customers and it remains the fundamental driving force behind our company`s success.',
-                  url: 'https://www.greenheck.com/about-us/philosophy',
+                  description: 'To bring this vision to reality, RATA with its base of ethics and a strong code of conduct, actively and responsibly helps its members to grow and has also encouraged new entrepreneurs for the expansion and betterment of the industry.',
+
 
             },
             {
-                  title: 'Indoor Air Quality',
-                  description: `Healthy buildings and indoor air quality begin with Greenheck's comprehensive line of air movement, control, distribution, and conditioning equipment. We are committed to supplying safe, healthy, comfortable air in commercial and institutional buildings, leveraging engineering excellence and innovation.`,
-                  url: 'https://www.greenheck.com/about-us/indoor-air-quality',
+                  title: 'Commitment',
+                  description: `The diverse membership of the organisation brings together different aspects, RATA believes in providing a platform to its members to showcase their offerings which in turn will promote internal as well as external trade. In this constantly evolving industry and changing market trends, the association contributes towards the promotion and an overall development of its members. RATA is an association of business owners in the HVACnR Trade and only companies in this field can become its members. The owners of these businesses can participate in various RATA activities. RATA represents business owners who are manufacturers both equipment and component, Dealers, Service providers, Traders, Importers, Wholesalers, Retailers and Consultants in the field of air conditioning, refrigeration and ventilation.`,
+
 
             },
             {
-                  title: 'Facilities',
-                  description: 'Greenheck manufactures its products in one of eight facilities across the globe. We also have five strategically located U.S. distribution centers, so our products are available when you need them.',
-                  url: 'https://www.greenheck.com/about-us/facilities',
-
+                  title: 'Goals and Objectives',
+                  description: `To promote the organisation and achieve the optimum trade benefits.
+                  To engage with the Central and State governments to ensure the trade gets its due importance and the MSMEs are supported to grow their business.
+                  To unite trade members so they can collaborate learn from each other and grow their business.
+                  To extend help to the members whenever need especially when it comes to unfair trade practises that affect their business.
+                  To develop and knowledge banks that can help self sufficiency in local manufacturing and develop ideas and products that can be truly Made in India.`,
             },
-            {
-                  title: 'Sustainability',
-                  description: 'Greenheck has come a long way since 1947 when it began business as a tiny sheet metal shop in Schofield, Wisconsin. Today, our flagship ventilation products are behind walls, in ductwork or on the roofs of non-residential buildings around the world.',
-                  url: 'https://www.greenheck.com/sustainability',
 
-            },
-            {
-                  title: 'Compliance Policies',
-                  description: 'Greenheck is dedicated to full and complete compliance with all U.S. Export laws and regulations relevant to the conduct of its business. Learn moreabout the practices Greenheck follows to ensure compliance with these laws.',
-                  url: 'https://www.greenheck.com/about-us/compliance-policies',
 
-            },
-            {
-                  title: 'Privacy Statement',
-                  description: 'Greenheck has come a long way since 1947 when it began business as a tiny sheet metal shop in Schofield, Wisconsin. Today, our flagship ventilation products are behind walls, in ductwork or on the roofs of non-residential buildings around the world.',
-                  url: 'https://www.greenheck.com/about-us/privacy-statement',
-            }
       ]
       return (
             <div className="pb-20">
                   <Container>
                         <Heading title="About Us" center subtitle="Learn more About Us" />
                         {aboutInfo.map((item) => (
-                              <CardForInfo key={item.title} imageUrl={item.title} title={item.title} description={item.description} url={item.url} />
+                              <CardForInfo key={item.title} imageUrl={item.title} title={item.title} description={item.description}  />
                         ))}
                   </Container>
             </div>

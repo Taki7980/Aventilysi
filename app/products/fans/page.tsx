@@ -66,10 +66,10 @@ const page = () => {
       ]
       return (
 
-            <div className='bg-gradient-to-t from-[#67f936] to-[#4f60f2] bg-cover bg-center bg-fixed relative'>
+            <>
                   <Container>
                         <Heading title='Fans' center subtitle='Fans for every commercial, industrial and institutional application.' />
-                        <div className="max-w-xl pt-5 mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-center md:max-w-2xl lg:max-w-none justify-center">
+                        <div className="max-w-xl py-7 mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-center md:max-w-2xl lg:max-w-none justify-center">
 
                               {items.map((item) => (
                                     <div key={item.title} className="animate-fade-out-down1 dark:bg-gray-800 dark:border-gray-700 bg-gradient-to-r from-[#67f936] to-[#4f60f2] space-y-4 relative flex flex-col items-center p-2 bg-white rounded shadow-2xl ">
@@ -84,7 +84,7 @@ const page = () => {
 
                         </div>
                   </Container>
-            </div>
+            </>
       )
 }
 
