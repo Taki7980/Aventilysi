@@ -18,7 +18,7 @@ const HeroComp: React.FC<HeroCompProps> = ({ title, subtitle, imageUrl, }) => {
                         <div className="w-full flex items-center justify-center self-center px-1 pt-2">
 
                               {/* Hero content */}
-                              <div className="py-3 md:py-5 lg:py-8 w-full md:w-full lg:w-full px-1 md:px-1 lg:px-1">
+                              <div className="animate-fade-in-down1 py-3 md:py-5 lg:py-8 w-full md:w-full lg:w-full px-1 md:px-1 lg:px-1">
                                     {/* Section header */}
                                     <div className="text-center pb-12 md:pb-16 w-full">
                                           <div className="w-full flex flex-col justify-center items-center md:flex-row lg:flex-row mb-4 space-y-1 lg:space-y-0 md:space-y-0 space-x-3" data-aos="zoom-y-out">
@@ -41,7 +41,7 @@ const HeroComp: React.FC<HeroCompProps> = ({ title, subtitle, imageUrl, }) => {
                                           width={768}
                                           height={432}
                                           alt={title}
-                                          className="rounded-xl shadow-2xl m-auto"
+                                          className="rounded-xl shadow-2xl m-auto animate-fade-in-down"
 
                                     />
 

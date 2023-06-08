@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 
 
@@ -57,10 +59,10 @@ export default function FeaturesBlocks() {
                         </div>
 
                         {/* Items */}
-                        <div className="max-w-xl pt-5 mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
+                        <div className="max-w-xl  pt-5 mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
 
                               {items.map((item) => (
-                                    <div key={item.title} className="space-y-4 relative flex flex-col items-center p-6 bg-white rounded shadow-xl ">
+                                    <div key={item.title} className="cardBg space-y-4 relative flex flex-col items-center p-6 bg-white rounded shadow-xl ">
                                           <Image src={item.imageUrl} className="w-16 h-16 p-1 -mt-1 mb-2" width={50} height={50} alt={"hh"} />
                                           <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">{item.title}</h4>
                                           <p className="text-gray-600 text-center">{item.description}</p>

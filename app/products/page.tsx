@@ -36,7 +36,7 @@ const page = () => {
                         <div className="max-w-xl pt-5 mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-center md:max-w-2xl lg:max-w-none justify-center">
 
                               {items.map((item) => (
-                                    <div key={item.title} className="space-y-4 relative flex flex-col items-center p-6 bg-white rounded shadow-xl ">
+                                    <div key={item.title} className="cardBg space-y-4 relative flex flex-col items-center p-6 bg-white rounded shadow-xl ">
                                           <Image src={item.imageUrl} className="w-auto h-auto p-1 -mt-1 mb-2" width={100} height={100} alt={"hh"} />
                                           <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">{item.title}</h4>
                                           <p className="text-gray-600 text-center">{item.description}</p>
