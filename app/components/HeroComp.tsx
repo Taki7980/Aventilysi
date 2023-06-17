@@ -28,9 +28,9 @@ const HeroComp: React.FC<HeroCompProps> = ({ title, subtitle, imageUrl, }) => {
                                           <div className="w-full lg:w-full md:w-full mx-auto px-1">
                                                 <p className=" drop-shadow-lg lg:text-xl md:text-base sm:text-sm text-[15px] font-thin text-gray-900 pb-8" data-aos="zoom-y-out" data-aos-delay="150">{subtitle}</p>
                                                 <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
-                                                      <div>
+                                                      {/* <div>
                                                             <a className="btn text-white text-justify bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-xl w-full mb-4 sm:w-auto sm:mb-0" href="https://www.greenheck.com/en/home">Visit Official Page</a>
-                                                      </div>
+                                                      </div> */}
                                                 </div>
                                           </div>
                                     </div>

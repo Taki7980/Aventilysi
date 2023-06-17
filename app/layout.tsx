@@ -21,7 +21,7 @@ export default function RootLayout({
 }) {
       return (
             <html lang="en">
-                  <body className={`${nunito.className} bounce content_bg bg-cover bg-center bg-fixed `}>
+                  <body className={`${nunito.className} bounce cardBg bg-cover bg-center bg-fixed `}>
                         <Navbar/>
                         {children}
                         <Footer/>

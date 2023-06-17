@@ -13,6 +13,8 @@ const nextConfig = {
                  "content.greenheck.com",
                  "docs.exideindustries.com",
                  "www.rataindia.com",
+                 "mdbcdn.b-cdn.net",
+                 "images.pexels.com",
             ]
       }
 }

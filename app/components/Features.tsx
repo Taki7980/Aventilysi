@@ -5,9 +5,7 @@ import { Transition } from '@headlessui/react'
 import Image from 'next/image'
 import FeaturesItems from './FeaturesItems';
 import Container from './Container';
-// import FeaturesBg from '@/public/images/features-bg.png'
 
-// import FeaturesElement from '@/public/images/features-element.png'
 
 
 
