@@ -1,8 +1,9 @@
 'use clinet';
 
-import Container from '@/app/components/Container'
-import Heading from '@/app/components/Heading';
+import Container from '../../components/Container'
+import Heading from '../../components/Heading';
 import Image from 'next/image';
+// @ts-ignore
 import React from 'react'
 
 const page = () => {

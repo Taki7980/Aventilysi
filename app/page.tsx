@@ -1,6 +1,4 @@
-'use client';
 
-import Carousel from "./components/Carousel";
 import Features from "./components/Features";
 import HeroComp from "./components/HeroComp";
 
@@ -17,3 +15,4 @@ const page = () => {
 
 export default page
 export const dynamic = 'force-dynamic'
+export const runtime = 'edge'

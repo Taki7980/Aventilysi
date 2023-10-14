@@ -26,7 +26,7 @@
     "gsap": "^3.12.1",
     "lottie-react": "^2.4.0",
     "mdb-react-ui-kit": "^6.0.0",
-    "next": "13.4.2",
+    "next": "^13.5.4",
     "next-sanity": "^4.3.2",
     "next-sanity-image": "^6.0.0",
     "postcss": "8.4.23",

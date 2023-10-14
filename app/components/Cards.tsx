@@ -1,8 +1,9 @@
 
-import { Project } from '@/types/Project'
+import { Project } from '../../types/Project'
 import Image from 'next/image'
+// @ts-ignore
+import React from "react"
 
-import React from 'react'
 
 
 interface Props {

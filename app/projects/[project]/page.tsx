@@ -1,9 +1,10 @@
 
-import { getProject } from '@/sanity/sanity-utils';
+import { getProject } from '../../../sanity/sanity-utils';
+// @ts-ignore
 import React from 'react'
 import Image from 'next/image';
-import Container from '@/app/components/Container';
-import Heading from '@/app/components/Heading';
+import Container from '../../components/Container';
+import Heading from '../../components/Heading';
 import Link from 'next/link';
 import { PortableText } from '@portabletext/react';
 

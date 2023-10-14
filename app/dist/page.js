@@ -1,7 +1,6 @@
-'use client';
 "use strict";
 exports.__esModule = true;
-exports.dynamic = void 0;
+exports.runtime = exports.dynamic = void 0;
 var Features_1 = require("./components/Features");
 var HeroComp_1 = require("./components/HeroComp");
 var page = function () {
@@ -11,3 +10,4 @@ var page = function () {
 };
 exports["default"] = page;
 exports.dynamic = 'force-dynamic';
+exports.runtime = 'edge';

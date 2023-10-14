@@ -1,10 +1,8 @@
 "use clinet";
 
-import Container from "@/app/components/Container";
-import Heading from "@/app/components/Heading";
 import Image from "next/image";
-import React from "react";
-import imga from "@/anim/bgf.png";
+import Container from "../../components/Container";
+import Heading from "../../components/Heading";
 
 const page = () => {
       const items = [

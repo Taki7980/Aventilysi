@@ -17,6 +17,7 @@ export const metadata = {
 export default function RootLayout({
       children,
 }: {
+      // @ts-ignore
       children: React.ReactNode
 }) {
       return (
@@ -30,3 +31,4 @@ export default function RootLayout({
             </html>
       )
 }
+export const runtime = 'edge'

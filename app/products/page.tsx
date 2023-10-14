@@ -1,4 +1,4 @@
-'use clinet';
+'use client';
 
 import Image from "next/image";
 import Container from "../components/Container";

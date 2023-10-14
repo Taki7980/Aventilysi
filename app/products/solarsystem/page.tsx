@@ -1,4 +1,5 @@
-import Container from '@/app/components/Container'
+import Container from '../../components/Container'
+// @ts-ignore
 import React from 'react'
 
 const page = () => {
