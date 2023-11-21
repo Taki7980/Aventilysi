@@ -1,4 +1,4 @@
-"use server";
+
 import { getProject } from '../../../sanity/sanity-utils';
 // @ts-ignore
 import React from 'react'
