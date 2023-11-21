@@ -1,6 +1,4 @@
-
-
-
+"use server";
 import { getProjects } from '../../sanity/sanity-utils'
 import Link from 'next/link';
 import Container from '../components/Container';

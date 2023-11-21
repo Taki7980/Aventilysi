@@ -1,6 +1,10 @@
+import { createClient, groq } from 'next-sanity';
 import { Project } from '../types/Project';
-import { createClient,groq } from 'next-sanity';
 import ClientConfig from './config/client-config';
+
+export const config={
+      runtime:'edge',
+}
 
 export async function getProjects():Promise<Project[]> {
     
